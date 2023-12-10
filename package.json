@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Places Rates",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./static -c-1"
   },
   "author": "ramiKate",
   "license": "ISC",
