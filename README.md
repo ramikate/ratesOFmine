@@ -9,10 +9,10 @@ winget node.js
 ```
 
 ## Init NPM project
-<b> ONLY if it doesn't exist</b> create a project folder.
+- <b> ONLY if it doesn't exist</b> create a project folder.
 
 
-Launch NPM using:
+- Launch NPM using:
 ```sh
 npm init
 ```
@@ -26,23 +26,23 @@ npm install http-server
 ## Create static Folder & index HTML
 After init the npm project we will find at the root project we should find the following files and dirs:
 
-node_modules/
-package.json
-package-lock.json
-.git/
-.gitignore
-readme.md
+- node_modules/
+- package.json
+- package-lock.json
+- .git/
+- .gitignore
+- readme.md
 
 
 Now we will create a new dir called static where we will add all of our static files.
 Inside we will create the start-page index.html
 
-static/index.html
+- static/index.html
 
 
 Optional:
 
-Add a hello-world content for the index.html
+- Add a hello-world content for the index.html
 
 ## Write Script
 http-server [path] [options]
