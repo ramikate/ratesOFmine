@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.875rem */
+    letter-spacing: 0.125rem;
+    
+  }
+
+  header  {
+
+  }
+  
+  /* Applies to all <h1>...</h1> elements. */
+  h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  
+  /* Applies to all elements with <... class="someclass"> specified. */
+  .someclass { color: red; }
+  
+  /* Applies to the element with <... id="someid"> specified. */
+  #someid { color: green; }
