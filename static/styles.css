@@ -112,6 +112,10 @@ body {
 
 section {
   .lugar {
+    pre {
+      font-family: Sunflower, sans-serif;
+    }
+    
     h4 {
       display: flex;
       flex-direction: column;
@@ -122,25 +126,23 @@ section {
       font-style: normal;
       margin-left: 3rem;
     }
+    
     .photo {
       margin-left: 1rem;
       width: 9rem;
       display: flex;
       float: right;
       margin-left: 2rem;
-      margin-top: 3rem;
+      margin-top: 5rem;
       margin-right: 7rem;
+      margin-bottom: 3rem;
     }
- 
-    
-  
-    
+
     margin-left: 5rem;
     background-color: #7c7b7b;
     display: block;
     margin-top: 1rem;
     margin-right: 30rem;
     border-radius: 5px;
-  
 }
 }
