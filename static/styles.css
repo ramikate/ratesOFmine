@@ -23,7 +23,6 @@ body {
       margin-left: 1rem;
       margin-top: 0rem;
       margin-right: 1rem;
-
       text-align: right;
       display: inline-block;
       float: left;
@@ -35,7 +34,7 @@ body {
 
       display: flex;
       margin-left: 0rem;
-      margin-top: 1rem;
+      margin-top: 0rem;
       flex-direction: column;
       justify-content: center;
       flex-shrink: 0;
