@@ -23,7 +23,6 @@ body {
       margin-top: 0rem;
       margin-right: 1rem;
       text-align: right;
-      display: inline-block;
       float: left;
       width: 9rem;
       border-radius: 10px;
@@ -54,7 +53,6 @@ body {
 .nav {
   margin-right: 5%;
   text-align: center;
-  display: inline-block;
   float: right;
   width: 15%;
   width: 23rem;
@@ -115,7 +113,7 @@ section {
     pre {
       font-family: Sunflower, sans-serif;
     }
-    
+
     h4 {
       display: flex;
       flex-direction: column;
@@ -139,8 +137,7 @@ section {
     }
 
     margin-left: 5rem;
-    background-color: #7c7b7b;
-    display: block;
+    background-color: #6b6767;
     margin-top: 1rem;
     margin-right: 30rem;
     border-radius: 5px;
