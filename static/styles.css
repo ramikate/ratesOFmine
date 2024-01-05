@@ -1,50 +1,86 @@
 
 body {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    letter-spacing: 0.125rem; 
-    background-color: #D9D9D9;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  letter-spacing: 0.125rem; 
+  background: radial-gradient(circle, rgba(217,217,217,1) 0%, rgba(178,172,172,1) 57%, rgba(162,154,154,1) 74%, rgba(100,84,84,1) 100%);
+  
+  
+
+  .encabezado {
+    background-color: #463b3b;
+    border-radius: 20px;
     
-    
-
-    .encabezado {
-      background-color: #645454;
-      border-radius: 20px;
-
-
-
-      h1 {
-
-        display: flex;
-        margin-left: 1rem;
-        margin-top: 1rem;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-        color: #D9D9D9;
-        font-family: "Sunflower", sans-serif;
-        font-size: 2.5rem;
-        font-style: normal;
-        
-      }
-      p {
-        margin-left: 1rem;
-        color: beige;
-        margin-bottom: 1rem;
-      }
+    img {
+      display: flex;
+      margin-left: 1rem;
+      margin-top: 0rem;
+      margin-right: 1rem;
+      text-align: right;
+      float: left;
+      width: 9rem;
+      border-radius: 10px;
     }
 
-   p {
-    margin-left: 2rem;
+    h1 {
+
+      display: flex;
+      margin-left: 0rem;
+      margin-top: 0rem;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #D9D9D9;
+      font-family: "Sunflower", sans-serif;
+      font-size: 2.5rem;
+      font-style: normal;
+      
+    }
+    p {
+      margin-left: 0rem;
+      color: beige;
+      margin-bottom: 1rem;
+    }
   }
 
+
+.nav {
+  margin-right: 5%;
+  text-align: center;
+  float: right;
+  width: 15%;
+  width: 23rem;
+  font-family: Sunflower, sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  background-color: #645454;
+  border-radius: 15px;
+
+  ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
   
+  h2 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #7c7b7b;
+    font-family: Sunflower, sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    margin-right: 0rem;
+  }
+
+  }
+
   h2 {
     display: flex;
     flex-direction: column;
@@ -54,6 +90,7 @@ body {
     font-family: Sunflower, sans-serif;
     font-size: 1.875rem;
     font-style: normal;
+    margin-left: 3rem;
   }
   
   h3 {
@@ -64,39 +101,45 @@ body {
     font-family: Sunflower, sans-serif;
     font-size: 1.5625rem;
     font-style: normal;
+    margin-left: 3rem;
   }
-  
-  .nav {
-    text-align: right;
-    display: inline-block;
-    float: right;
-    width: 15%;
-    color: #a3a1a1;
-    font-family: Sunflower;
-    font-size: 1.5625rem;
-    font-style: normal;
-    background-color: #645454;
-    border-radius: 20px;
-    
-    h2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: right;
-      flex-shrink: 0;
-      color: beige;
+
+  p {
+    margin-left: 5rem;
+  }
+
+section {
+  .lugar {
+    pre {
       font-family: Sunflower, sans-serif;
-      font-size: 1.875rem;
-      font-style: normal;
-      margin-right: 2rem;
     }
 
-    ul {
-      margin-right: 2rem;
-      font-family: "Source Sans Pro", sans-serif;
-      justify-content: right;
+    h4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;color: #a5a5a5;
+      font-family: Sunflower, sans-serif;
+      font-size: 1.5625rem;
+      font-style: normal;
+      margin-left: 3rem;
     }
+    
+    .photo {
+      margin-left: 1rem;
+      width: 9rem;
+      display: flex;
+      float: right;
+      margin-left: 2rem;
+      margin-top: 5rem;
+      margin-right: 7rem;
+      margin-bottom: 3rem;
     }
-     
-  
+
+    margin-left: 5rem;
+    background-color: #6b6767;
+    margin-top: 1rem;
+    margin-right: 30rem;
+    border-radius: 5px;
 }
-  
+}
